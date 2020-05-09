@@ -165,3 +165,17 @@ if($condition)
     }
 
     define( 'DOING_AJAX', true );
+
+    /**
+     * CSS: multiple class should be new line
+     */
+
+     .classA,
+     .classB,
+     .classC {
+
+     }
+
+     #common-form {
+        background: #fff;
+     }
